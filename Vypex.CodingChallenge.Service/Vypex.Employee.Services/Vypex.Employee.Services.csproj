@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.2-pre02" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vypex.Employee.Common\Vypex.Employee.Common.csproj" />
+    <ProjectReference Include="..\Vypex.Employee.Interfaces\Vypex.Employee.Interfaces.csproj" />
+    <ProjectReference Include="..\Vypex.Employee.Repositories\Vypex.Employee.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
